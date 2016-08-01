@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap_test",
+  "description": "this is bootstrap theme test",
+  "main": "gulpfile.js",
+  "authors": [
+    "zhangdongming"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "devDependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.6"
+  }
+}

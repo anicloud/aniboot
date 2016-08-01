@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="src//bootstrap.css">
+</head>
+<body>
+<button>点我popover</button>
+</body>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="src//bootstrap.js"></script>
+<script>
+$('button').popover({
+    placement:'bottom',
+    content:"hahahhahah"
+}).on('show.bs.popover',function ($event) {
+    console.dir($event.currentTarget);
+});
+</script>
+</html>

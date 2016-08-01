@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>chec</title>
+
+    <style>
+        input[type=checkbox]{
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            width:13px;
+            height: 13px;
+            border: 1px solid black;
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top:0;
+        }
+        input[type=checkbox]:focus{
+                     outline:none;
+                 }
+        input[type=checkbox]:after{
+             opacity: 0;
+             content: '';
+             position: absolute;
+             width: 7px;
+             height: 4px;
+             background: transparent;
+             top: 1px;
+             left: 1px;
+             border: 2px solid #333;
+             border-top: none;
+             border-right: none;
+
+             -webkit-transform: rotate(-45deg);
+             -moz-transform: rotate(-45deg);
+             -o-transform: rotate(-45deg);
+             -ms-transform: rotate(-45deg);
+             transform: rotate(-45deg);
+         }
+        input[type=checkbox]:hover::after {
+            opacity: 0;
+        }
+
+        /**
+         * Create the checkbox state for the tick
+         */
+        input[type=checkbox]:checked::after{
+            opacity: 1;
+        }
+        /**
+ * Checkbox Five
+ */
+        /*input[type=checkbox] {*/
+            /*visibility: hidden;*/
+        /*}*/
+        /*.checkboxFive {*/
+            /*width: 25px;*/
+            /*margin: 20px 100px;*/
+            /*position: relative;*/
+        /*}*/
+        /*.checkboxFive label {*/
+            /*cursor: pointer;*/
+            /*position: absolute;*/
+            /*width: 25px;*/
+            /*height: 25px;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*background: #eee;*/
+            /*border:1px solid #ddd;*/
+        /*}*/
+        /*.checkboxFive label:after {*/
+            /*opacity: 0;*/
+            /*content: '';*/
+            /*position: absolute;*/
+            /*width: 9px;*/
+            /*height: 5px;*/
+            /*background: transparent;*/
+            /*top: 6px;*/
+            /*left: 7px;*/
+            /*border: 3px solid #333;*/
+            /*border-top: none;*/
+            /*border-right: none;*/
+
+            /*-webkit-transform: rotate(-45deg);*/
+            /*-moz-transform: rotate(-45deg);*/
+            /*-o-transform: rotate(-45deg);*/
+            /*-ms-transform: rotate(-45deg);*/
+            /*transform: rotate(-45deg);*/
+        /*}*/
+        /**
+ * Create the hover event of the tick
+ */
+        .checkboxFive label:hover::after {
+            opacity: 0;
+        }
+
+        /**
+         * Create the checkbox state for the tick
+         */
+        .checkboxFive input[type=checkbox]:checked + label:after {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="checkboxFive">-->
+    <!--<input type="checkbox" value="1" id="checkboxFiveInput" name="" />-->
+    <!--<label for="checkboxFiveInput"></label>-->
+<!--</div>-->
+<input type="checkbox">
+</body>
+</html>
