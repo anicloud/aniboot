@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="90px" height="90px" viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve">
+<g>
+	<polyline fill="none" stroke="#31323B" stroke-miterlimit="10" points="13.13,48.456 30.022,71.01 61.149,48.231 76.392,70.709 	
+		"/>
+	<ellipse fill="#92D13D" stroke="#31323B" stroke-miterlimit="10" cx="13.581" cy="48.53" rx="8.977" ry="8.945"/>
+	<ellipse fill="#92D13D" stroke="#31323B" stroke-miterlimit="10" cx="30.051" cy="71.27" rx="8.977" ry="8.945"/>
+	<ellipse fill="#92D13D" stroke="#31323B" stroke-miterlimit="10" cx="62.043" cy="48.53" rx="8.977" ry="8.945"/>
+	<ellipse fill="#92D13D" stroke="#31323B" stroke-miterlimit="10" cx="76.42" cy="71.27" rx="8.977" ry="8.945"/>
+	<g>
+		<g>
+			<polygon fill="#FFFFFF" points="24.872,53.586 48.252,11.855 73.372,25.833 49.989,67.561 31.254,71.595 			"/>
+			<path fill="#31323B" d="M48.445,12.535l24.246,13.491L49.664,67.12l-18.084,3.894l-6.161-17.38L48.445,12.535 M48.06,11.176
+				L24.325,53.54l6.605,18.637l19.385-4.174L74.053,25.64L48.06,11.176L48.06,11.176z"/>
+		</g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#92D13D" stroke-linecap="round" stroke-miterlimit="10" x1="50.5" y1="53.821" x2="61.909" y2="33.421"/>
+				
+					<line fill="none" stroke="#92D13D" stroke-linecap="round" stroke-miterlimit="10" x1="64.153" y1="29.419" x2="65.048" y2="27.818"/>
+			</g>
+			<g>
+				<path fill="#92D13D" d="M24.939,53.733c2.681-1.892,5.943-2.93,9.228-2.93c2.684,0,5.349,0.693,7.706,2.005
+					c5.352,2.978,8.382,8.618,7.972,14.786l-18.546,4.079L24.939,53.733z"/>
+				<g>
+					<path d="M34.167,51.303c2.599,0,5.18,0.672,7.463,1.942c5.071,2.821,7.989,8.115,7.736,13.941L31.623,71.09l-6.083-17.163
+						C28.075,52.231,31.111,51.303,34.167,51.303 M34.167,50.303c-3.522,0-6.981,1.136-9.824,3.244l6.632,18.709l19.34-4.254
+						c0.548-6.209-2.381-12.395-8.198-15.631C39.596,50.968,36.863,50.303,34.167,50.303L34.167,50.303z"/>
+				</g>
+			</g>
+		</g>
+		<polygon points="28.353,61.87 31.625,71.104 41.229,69.036 		"/>
+		<path fill="#92D13D" stroke="#31323B" stroke-miterlimit="10" d="M50.609,12.733l1.12-2.002c0.486-0.867,1.588-1.178,2.5-0.771
+			l17.626,9.806c0.827,0.562,1.138,1.658,0.651,2.525l-1.121,2.003"/>
+	</g>
+</g>
+</svg>
