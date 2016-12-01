@@ -11,6 +11,10 @@ gulp.task('bootstrap', function () {
     gulp.src('bower_components/bootstrap/less/bootstrap.less')
         .pipe(less())
         .pipe(gulp.dest('src'));
+    gulp.src('bower_components/bootstrap/less/theme.less')
+        .pipe(less())
+        .pipe(gulp.dest('src'));
+
 });
 gulp.task('default', function () {
     gulp.watch('bower_components/bootstrap/less/*.less', ['bootstrap']);
